@@ -21,6 +21,7 @@
   --serif:"Cormorant Garamond", "Iowan Old Style", Georgia, serif;
   --sans:"Karla", "Helvetica Neue", Arial, sans-serif;
   --max:1240px;
+  --h-topo:92px;
 }
 
 *{box-sizing:border-box}
@@ -55,10 +56,14 @@ button{font:inherit;color:inherit;background:none;border:none;cursor:pointer}
 }
 .topo-in{
   display:flex;align-items:center;gap:24px;
-  height:68px;
+  height:var(--h-topo);
 }
-.marca{display:flex;align-items:center;gap:11px;margin-right:auto;text-decoration:none}
-.marca-icone{height:38px;width:auto;flex:0 0 auto;display:block}
+.marca{display:flex;align-items:center;gap:14px;margin-right:auto;text-decoration:none}
+.marca-icone{height:62px;width:auto;flex:0 0 auto;display:block}
+@media(max-width:640px){
+  :root{--h-topo:76px}
+  .marca-icone{height:48px}
+}
 .marca-txt{display:flex;flex-direction:column;line-height:1.1}
 .marca b{
   font-family:var(--serif);font-weight:500;font-size:25px;letter-spacing:.01em;
@@ -145,7 +150,7 @@ button{font:inherit;color:inherit;background:none;border:none;cursor:pointer}
 
 /* ---------- navegação de seções ---------- */
 .navsec{
-  position:sticky;top:68px;z-index:50;
+  position:sticky;top:var(--h-topo);z-index:50;
   background:color-mix(in srgb, var(--fundo) 92%, transparent);
   backdrop-filter:blur(14px);
   border-bottom:1px solid var(--linha);
