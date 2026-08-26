@@ -58,7 +58,7 @@ document.getElementById("secoes").innerHTML = SECOES.map((s, si) => `
           <span class="peca-txt">
             <h3>${p.nome}</h3>
             <p>${p.desc}</p>
-            <span class="tags">${p.fmt.map(f => `<span class="tag">${f}</span>`).join("")}</span>
+            <span class="tags"><span class="tag">${s.nome}</span></span>
           </span>
         </button>`).join("")}
     </div>
@@ -81,7 +81,6 @@ function pintar() {
   document.getElementById("lb-tit").textContent = p.nome;
   document.getElementById("lb-desc").textContent = p.desc;
   document.getElementById("f-sec").textContent = s.nome;
-  document.getElementById("f-fmt").textContent = p.fmt.join(", ") || "Sob consulta";
   document.getElementById("lb-whats").href = zap('Olá! Tenho interesse na peça "' + p.nome + '" (' + s.nome + "). Pode me passar valores?");
   document.getElementById("lb-minis").innerHTML = p.img.length > 1
     ? p.img.map((n, i) => `<button data-i="${i}" class="${i === atual.i ? "ativa" : ""}" aria-label="Foto ${i + 1}"><img src="${mini(n)}" alt=""></button>`).join("")
