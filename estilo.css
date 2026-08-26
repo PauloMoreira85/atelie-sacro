@@ -57,11 +57,13 @@ button{font:inherit;color:inherit;background:none;border:none;cursor:pointer}
   display:flex;align-items:center;gap:24px;
   height:68px;
 }
-.marca{display:flex;align-items:baseline;gap:10px;margin-right:auto;text-decoration:none}
+.marca{display:flex;align-items:center;gap:11px;margin-right:auto;text-decoration:none}
+.marca-icone{height:38px;width:auto;flex:0 0 auto;display:block}
+.marca-txt{display:flex;flex-direction:column;line-height:1.1}
 .marca b{
   font-family:var(--serif);font-weight:500;font-size:25px;letter-spacing:.01em;
 }
-.marca span{
+.marca-txt span{
   font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--texto-3);
 }
 .topo-acoes{display:flex;align-items:center;gap:8px}
@@ -82,7 +84,7 @@ button{font:inherit;color:inherit;background:none;border:none;cursor:pointer}
 }
 .icone-btn:hover{border-color:var(--gilt);color:var(--gilt)}
 @media(max-width:860px){.topo .btn-linha{display:none}}
-@media(max-width:520px){.marca span{display:none}}
+@media(max-width:520px){.marca-txt span{display:none}}
 
 /* ---------- hero ---------- */
 .hero{

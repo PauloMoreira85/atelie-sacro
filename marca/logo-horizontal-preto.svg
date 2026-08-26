@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 148" role="img" aria-label="Ateliê Sacro">
+<style>@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500&amp;family=Karla:wght@500;600&amp;display=swap");.nome{font-family:"Cormorant Garamond","Iowan Old Style",Georgia,serif;font-weight:400}.sub{font-family:"Karla","Helvetica Neue",Arial,sans-serif;font-weight:600;letter-spacing:.22em;text-transform:uppercase}</style>
+  <g transform="translate(0,0)">
+<g fill="none" stroke="#1C1A17" stroke-linecap="butt">
+    <path d="M15 140 V58 A45 45 0 0 1 105 58 V140" stroke-width="3.2"/>
+    <path d="M24 140 V60 A36 36 0 0 1 96 60 V140" stroke-width="1" opacity=".4"/>
+    <path d="M4 140 H116" stroke-width="3.2"/>
+  </g>
+  <g fill="#1C1A17">
+    <rect x="58.3" y="8" width="3.4" height="21"/>
+    <rect x="52.5" y="14.8" width="15" height="3.4"/>
+  </g>
+  <g fill="#1C1A17">
+    <path d="M60 46 L83 120 H76.4 L55.6 52.4 Z"/>
+    <path d="M60 46 L37 120 H43.6 L64.4 52.4 Z"/>
+    <rect x="45.5" y="96" width="29" height="3.2"/>
+  </g>
+  <path fill="#1C1A17" d="
+    M70.8 65.0
+    C70.8 59.8 65.4 56.8 60.0 57.4
+    C54.8 58.0 52.0 61.6 53.3 65.2
+    C54.4 68.2 57.8 70.2 61.8 72.2
+    C69.0 75.8 74.2 79.6 74.2 86.8
+    C74.2 95.2 66.0 100.4 56.8 99.3
+    C49.6 98.4 45.4 93.6 44.9 86.2
+    L48.0 86.2
+    C48.5 92.4 52.0 96.2 57.8 96.8
+    C64.8 97.4 70.9 93.4 70.9 87.4
+    C70.9 82.4 66.8 79.4 59.8 75.8
+    C53.8 72.7 50.4 69.6 50.4 64.8
+    C50.4 58.2 56.6 53.8 63.8 54.4
+    C69.4 54.9 72.9 58.2 73.3 63.4
+    Z"/>
+  </g>
+  <g transform="translate(150,0)">
+    <text class="nome" x="0" y="86" font-size="62" fill="#1C1A17">Ateliê Sacro</text>
+    <line x1="2" y1="102" x2="352" y2="102" stroke="#1C1A17" stroke-width="1" opacity=".55"/>
+    <text class="sub" x="2" y="124" font-size="12.5" fill="#1C1A17">Arte sacra em impressão 3D</text>
+  </g>
+</svg>
